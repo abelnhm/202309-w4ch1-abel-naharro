@@ -134,3 +134,10 @@ h2 {
 .gentleman:hover .gentleman__avatar {
   transform: scaleX(-100%);
 }
+
+.button--select {
+  cursor: pointer;
+}
+.button--select:hover {
+  font-weight: 600;
+}
