@@ -6,13 +6,13 @@ import { Gentleman } from '../model/genderman';
 const title = 'The pointing gentlemen';
 const subTitle = 'gentlemen pointing at you';
 
-const cards: Gentleman[] = gentlemans;
+const list: Gentleman[] = gentlemans;
 
 function App() {
   return (
     <div>
-      <Info title={title} subTitle={subTitle}></Info>
-      <List cards={cards}></List>
+      <Info title={title}></Info>
+      <List list={list} subTitle={subTitle}></List>
     </div>
   );
 }
