@@ -21,7 +21,7 @@ export function List({ list, subTitle }: Props) {
     setCount(genders.length);
   };
 
-  const handleClickGentleman = (ev: SyntheticEvent) => {
+  const handleClickGentleman = () => {
     const countMore = countGentleman + 1;
     setCount(countMore);
   };
