@@ -3,9 +3,9 @@ import { Gentleman } from '../model/genderman';
 
 type Props = {
   list: Gentleman[];
-  subtitle: string;
+  subTitle: string;
 };
-export function List({ list, subtitle }: Props) {
+export function List({ list, subTitle }: Props) {
   const count = 0;
 
   const [gentlemans, setGentleman] = useState(list);
@@ -34,7 +34,7 @@ export function List({ list, subtitle }: Props) {
     <>
       <section className="controls">
         <p className="info">
-          {countGentleman} {subtitle}
+          {countGentleman} {subTitle}
         </p>
         <button className="button button--select" onClick={handleClick}>
           Select all
